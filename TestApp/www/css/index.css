@@ -1,0 +1,20 @@
+﻿body {
+}
+
+.ionic-icon{
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
+    list-style: outside none none;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    width: 42px;
+    z-index: 0;
+}
+
+.bar-footer .ionic-icon {
+    padding:0px;
+}

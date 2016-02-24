@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "111",
+             "storePassword": "222",
+             "alias": "333",
+             "password" : "444",
+             "keystoreType": "555"
+         }
+     }
+ }

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular 2 QuickStart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="lib/ionic/css/ionic.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="lib/angular2/es6-shim.min.js"></script>
+    <script src="lib/angular2/system-polyfills.js"></script>
+    
+    <script src="lib/json2/json2.min.js"></script>
+    
+    <script src="lib/angular2/angular2-polyfills.min.js"></script>
+    <script src="lib/angular2/system.js"></script>
+    <script src="lib/angular2/typescript.js"></script>
+    <script src="lib/angular2/Rx.min.js"></script>
+    <script src="lib/angular2/angular2.min.js"></script>
+    <script src="lib/angular2/router.js"></script>
+
+    <script src="lib/angular2/http.min.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: { emitDecoratorMetadata: true },
+            packages: { 'typescripts': { defaultExtension: 'ts' } }
+        });
+        System.import('typescripts/main')
+            .then(null, console.error.bind(console));
+    </script>
+</head>
+<!-- 3. Display the application -->
+<body>
+    <my-app></my-app>
+</body>
+</html>
